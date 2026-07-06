@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>cn.iocoder.boot</groupId>
+        <artifactId>yudao</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>yudao-server</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        鍚庣 Server 鐨勪富椤圭洰锛岄€氳繃寮曞叆闇€瑕?yudao-module-xxx 鐨勪緷璧栵紝
+        浠庤€屽疄鐜版彁渚?RESTful API 缁?yudao-ui-admin銆亂udao-ui-user 绛夊墠绔」鐩€?        鏈川涓婃潵璇达紝瀹冨氨鏄釜绌哄３锛堝鍣級锛?    </description>
+    <url>https://github.com/YunaiV/ruoyi-vue-pro</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.iocoder.boot</groupId>
+            <artifactId>yudao-module-system</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.iocoder.boot</groupId>
+            <artifactId>yudao-module-infra</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.iocoder.boot</groupId>
+            <artifactId>yudao-module-optical</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- 浼氬憳涓績銆傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-member</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- 鏁版嵁鎶ヨ〃銆傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-report</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+        <!-- 宸ヤ綔娴併€傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-bpm</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+        <!-- 鏀粯鏈嶅姟銆傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-pay</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- 寰俊鍏紬鍙锋ā鍧椼€傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-mp</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- 鍟嗗煄鐩稿叧妯″潡銆傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害-->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-product</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-promotion</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-trade</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-statistics</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- CRM 鐩稿叧妯″潡銆傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-crm</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- ERP 鐩稿叧妯″潡銆傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-erp</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- AI 澶фā鍨嬬浉鍏虫ā鍧椼€傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-ai</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- IoT 鐗╄仈缃戠浉鍏虫ā鍧椼€傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-iot-biz</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- MES 鍒堕€犳墽琛岀郴缁熺浉鍏虫ā鍧?-->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-mes</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- WMS 浠撳簱绠＄悊妯″潡 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-wms</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- IM 鐩稿叧妯″潡銆傞粯璁ゆ敞閲婏紝淇濊瘉缂栬瘧閫熷害 -->
+<!--        <dependency>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-im</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+        <!-- spring boot 閰嶇疆鎵€闇€渚濊禆 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- 鏈嶅姟淇濋殰鐩稿叧 -->
+        <dependency>
+            <groupId>cn.iocoder.boot</groupId>
+            <artifactId>yudao-spring-boot-starter-protection</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <!-- 璁剧疆鏋勫缓鐨?jar 鍖呭悕 -->
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <!-- 鎵撳寘 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.boot.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal> <!-- 灏嗗紩鍏ョ殑 jar 鎵撳叆鍏朵腑 -->
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
+
